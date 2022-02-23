@@ -10,7 +10,6 @@
 
     <!-- Include the whole PSR1-2 standard -->
     <rule ref="PSR12">
-        <!--<exclude name="Generic.Files.LineEndings" />--><!-- Allow CRLF line endings for our Windows users - git will correct them -->
         <exclude name="Generic.Files.LineLength" /><!-- phpcbf won't fix it and it doesn't matter much if at all -->
     </rule>
 

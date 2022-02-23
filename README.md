@@ -5,7 +5,7 @@ A custom PHP CodeSniffer ruleset
 ## Install
 
 1. Add the repository to your composer.json:
-    ```
+    ```json
     "repositories": [
         {
             "type": "github",
