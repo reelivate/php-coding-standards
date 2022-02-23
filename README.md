@@ -15,7 +15,7 @@ A custom PHP CodeSniffer ruleset
     ```
 1. Require with composer:
     ```shell
-    composer require reelivate/php-coding-standards
+    composer require --dev reelivate/php-coding-standards
     ```
 
 ## Usage
