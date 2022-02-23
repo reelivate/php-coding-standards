@@ -1,0 +1,22 @@
+{
+    "name": "reelivate/php-coding-standards",
+    "description": "Elevent's PHP coding standard.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elevent Engineering",
+            "email": "dev@bookelevent.com",
+            "homepage": "https://www.bookelevent.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "slevomat/coding-standard": "^7.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
