@@ -71,9 +71,6 @@
     <rule ref="Squiz.WhiteSpace.SemicolonSpacing" />
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
 
-    <rule ref="SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys">
-        <exclude-pattern>config/*</exclude-pattern>
-    </rule>
     <rule ref="SlevomatCodingStandard.Arrays.ArrayAccess" />
     <rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation" />
     <rule ref="SlevomatCodingStandard.Arrays.MultiLineArrayEndBracketPlacement" />
@@ -172,9 +169,15 @@
         <exclude-pattern>database/*migrations/*</exclude-pattern>
     </rule>
 
-    <rule ref="SlevomatCodingStandard.Functions.ArrowFunctionDeclaration" />
+    <rule ref="SlevomatCodingStandard.Functions.ArrowFunctionDeclaration">
+        <properties>
+            <property name="spacesCountAfterKeyword" value="0" />
+            <property name="allowMultiLine" value="true" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall" />
     <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration" />
+    <rule ref="SlevomatCodingStandard.Functions.NamedArgumentSpacing " />
     <rule ref="SlevomatCodingStandard.Functions.RequireMultiLineCall">
         <properties>
             <property name="minLineLength" value="131" />
