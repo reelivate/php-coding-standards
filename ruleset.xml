@@ -177,7 +177,7 @@
     </rule>
     <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall" />
     <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration" />
-    <rule ref="SlevomatCodingStandard.Functions.NamedArgumentSpacing " />
+    <rule ref="SlevomatCodingStandard.Functions.NamedArgumentSpacing" />
     <rule ref="SlevomatCodingStandard.Functions.RequireMultiLineCall">
         <properties>
             <property name="minLineLength" value="131" />
