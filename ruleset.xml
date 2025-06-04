@@ -39,7 +39,11 @@
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
     <rule ref="Generic.Commenting.Fixme" />
     <rule ref="Generic.Files.ByteOrderMark" />
-    <rule ref="Generic.Formatting.NoSpaceAfterCast" />
+    <rule ref="Generic.Formatting.SpaceAfterCast">
+        <properties>
+            <property name="spacing" value="0" />
+        </properties>
+    </rule>
     <rule ref="Generic.NamingConventions.ConstructorName" />
     <rule ref="Generic.NamingConventions.UpperCaseConstantName" />
     <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag" />
@@ -237,5 +241,4 @@
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
 
     <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces" />
-
 </ruleset>
