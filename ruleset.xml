@@ -180,6 +180,7 @@
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator" />
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses" />
 
     <rule ref="SlevomatCodingStandard.Exceptions.DeadCatch" />
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly">
@@ -267,4 +268,10 @@
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
 
     <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces" />
+    
+    <!-- test classes are final -->
+    <rule ref="SlevomatCodingStandard.Classes.RequireAbstractOrFinal">
+        <include-pattern>tests/Feature/*Test</include-pattern>
+        <include-pattern>tests/Unit/*Test</include-pattern>
+    </rule>
 </ruleset>
