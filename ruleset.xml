@@ -180,7 +180,6 @@
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator" />
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses" />
 
     <rule ref="SlevomatCodingStandard.Exceptions.DeadCatch" />
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly">
