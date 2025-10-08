@@ -52,11 +52,7 @@
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <type>warning</type>
         <properties>
-            <property name="forbiddenFunctions" type="array">
-                <!-- default exclusions -->
-                <element key="sizeof" value="count"/>
-                <element key="delete" value="unset"/>
-
+            <property name="forbiddenFunctions" type="array" extend="true">
                 <!-- mb_* functions should be used instead -->
                 <element key="strlen" value="mb_strlen"/>
                 <element key="substr" value="mb_substr"/>
