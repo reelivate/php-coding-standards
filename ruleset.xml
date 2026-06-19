@@ -64,7 +64,6 @@
                 <element key="strtoupper" value="mb_strtoupper"/>
                 <element key="str_ireplace" value="mb_str_ireplace"/>
                 <element key="parse_str" value="mb_parse_str"/>
-                <element key="quoted_printable_decode" value="mb_quoted_printable_decode"/>
                 <element key="str_pad" value="mb_str_pad"/>
                 <element key="str_split" value="mb_str_split"/>
                 <element key="str_word_count" value="mb_str_word_count"/>
